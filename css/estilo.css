@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap"); 
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+
+#body{
+    background-color: white;
+}
+
+#todo{
+    width: 52%;
+    height: auto;
+    display: flex;
+    margin: auto;
+    margin-top: 8%;
+    border-radius: 10px;
+
+}
+
+#ladoA{
+    width: 40%;
+    height: auto;
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0px 0px 10px;
+
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-bottom: 40px;
+}
+#ladoB{
+    width: 40%;
+    height: auto;
+    background-color: hsl(184, 100%, 22%);
+
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-bottom: 40px;
+}
+#ladoC{
+    width: 40%;
+    height: auto;
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 10px 10px 0px;
+
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-bottom: 40px;
+}
+
+.titulo{
+    font-family: "Big Shoulders Display", sans-serif;
+    color: hsl(0, 0%, 95%);
+}
+
+.paragrafo{
+    font-family: "Lexend Deca", sans-serif;
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 40px;
+}
+
+#todo button{
+    background-color: hsl(0, 0%, 95%);;
+    border: none;
+    border-radius: 30px;
+  
+    font-weight: bold;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    margin-top: 30%;
+}
+
+.button1{
+    color: hsl(31, 77%, 52%);
+}
+.button2{
+    color: hsl(184, 100%, 22%);
+}
+.button3{
+    color: hsl(179, 100%, 13%);
+}
+
+
+@media screen and (max-width: 650px){ 
+    body{
+        margin: 0px;
+    }
+    #todo{
+        display: block;
+        width: 80%;
+        height: auto;
+        margin: auto;
+        padding: 0px;
+    }
+    #lado1{
+        border-radius: 10px 10px 0px 0px;   
+        width: 90%; 
+    }
+    #lado2{
+        border-radius: 0px 0px 0px 0px;
+        width: 90%;
+    }
+    #lado3{
+        border-radius: 0px 0px 10px 10px;
+        width: 90%;
+    }
+}
